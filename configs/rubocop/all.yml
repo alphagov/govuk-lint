@@ -3,3 +3,4 @@ inherit_from:
   - other-lint.yml
   - other-rails.yml
   - other-style.yml
+  - other-metrics.yml

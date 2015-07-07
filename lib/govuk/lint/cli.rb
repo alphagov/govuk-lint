@@ -1,3 +1,6 @@
+require "govuk/lint"
+require "govuk/lint/diff"
+
 require "rubocop"
 
 module Govuk

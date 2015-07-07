@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("../../lib", __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require "govuk/lint"
+
+cli = Govuk::Lint::CLI.new
+
+exit cli.run

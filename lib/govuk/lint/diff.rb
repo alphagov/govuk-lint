@@ -25,12 +25,12 @@ module Govuk
         @changed_lines ||= begin
           changes = changed_files.map do |file|
             next unless File.exist?(file)
-            [file, `git difftool #{commit_options}
-                    -y
-                    -x 'diff
-                      --new-line-format="%dn "
-                      --unchanged-line-format=""
-                      --changed-group-format="%>"'
+            [file, `git difftool #{commit_options} \
+                    -y \
+                    -x 'diff \
+                      --new-line-format="%dn " \
+                      --unchanged-line-format="" \
+                      --changed-group-format="%>"' \
                     #{file}`.split.map(&:to_i)]
           end
 

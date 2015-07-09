@@ -4,6 +4,12 @@ This repo configures various linters to comply with our [style guides][guides].
 
 ## Supported languages
 
+### Puppet
+
+We maintain a set of tasks for linting and santity checks in the
+[gds-operations/puppet-syntax](https://github.com/gds-operations/puppet-syntax)
+repository.
+
 ### Ruby
 
 Linter: [rubocop][rubocop]

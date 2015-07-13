@@ -1,3 +1,8 @@
+# 0.2.0
+
+* Disable string quoting check (#8)
+* Disable line length check (#7)
+
 # 0.1.2
 
 * Fix a bug in executing the difftool with linebreaks

@@ -209,6 +209,9 @@ ModuleFunction:
   Description: 'Checks for usage of `extend self` in modules.'
   Enabled: false
 
+MultilineOperationIndentation:
+  EnforcedStyle: indented
+
 NegatedIf:
   Description: >-
     Favor unless over if for negative conditions

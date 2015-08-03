@@ -1,3 +1,7 @@
+# 0.3.0
+
+* Allow single indentation in Multiline operations
+
 # 0.2.0
 
 * Disable string quoting check (#8)

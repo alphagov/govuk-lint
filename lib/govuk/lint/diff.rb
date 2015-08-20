@@ -42,7 +42,6 @@ module Govuk
       def self.changed_files
         `git diff #{commit_options} --name-only`.
           split.
-          select { |f| f =~ %r{.rb$} }.
           map { |f| File.expand_path(f.chomp, "./") }
       end
 

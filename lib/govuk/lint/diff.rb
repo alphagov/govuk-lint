@@ -16,7 +16,6 @@ module Govuk
 
       def self.enable!(args)
         args.delete("--diff")
-        @cached = true if args.delete("--cached")
         RuboCop::Cop::Cop.prepend EnabledLines
         RuboCop::TargetFinder.prepend TargetFinder
       end
@@ -47,7 +46,7 @@ module Govuk
       end
 
       def self.commit_options
-        @cached ? "--cached origin/master" : "origin/master HEAD"
+        "--cached origin/master"
       end
     end
   end

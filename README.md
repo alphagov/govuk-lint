@@ -30,9 +30,7 @@ Useful options:
 
 - `-a`: Auto-correct violations if possible
 - `-R`: Also run Rails-specific cops
-- `--diff`: Only lint lines that have been changed in the current diff
-- `--cached`: Used with `--diff` to lint only lines changed between
-`origin/master` and `HEAD`.
+- `--diff`: Only lint lines that have been changed in the current diff, including any staged (cached) changes. This is useful for Jenkins where we merge (but don't commit) changes from origin/master in to our branch.
 
 See more options in the [rubocop][rubocop] README.
 

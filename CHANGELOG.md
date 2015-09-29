@@ -1,3 +1,5 @@
+* Respect local `.rubocop.yml` files
+
 # 0.3.0
 
 * Allow single indentation in Multiline operations

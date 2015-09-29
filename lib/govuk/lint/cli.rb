@@ -1,5 +1,6 @@
 require "govuk/lint"
 require "govuk/lint/diff"
+require "govuk/lint/config_file"
 
 require "rubocop"
 
@@ -8,7 +9,7 @@ module Govuk
     class CLI < RuboCop::CLI
       def run(args = ARGV)
         args += ["--config",
-                 File.join(Govuk::Lint::CONFIG_PATH, "rubocop/all.yml")]
+                 ConfigFile.new.config_file_path]
 
         Diff.enable!(args) if args.include? "--diff"
 

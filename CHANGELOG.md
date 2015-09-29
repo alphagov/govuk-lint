@@ -1,4 +1,6 @@
-* Respect local `.rubocop.yml` files
+# 0.4.0
+
+* Respect local `.rubocop.yml` files (#17)
 
 # 0.3.0
 

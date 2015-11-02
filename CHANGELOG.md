@@ -1,3 +1,7 @@
+# 0.4.1
+
+* Permit trivial predicates (#19)
+
 # 0.4.0
 
 * Respect local `.rubocop.yml` files (#17)

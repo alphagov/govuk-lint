@@ -231,7 +231,7 @@ TrivialAccessors:
   Description: Prefer attr_* methods to trivial readers/writers.
   Enabled: true
   ExactNameMatch: true
-  AllowPredicates: false
+  AllowPredicates: true
   AllowDSLWriters: false
   Whitelist:
   - to_ary

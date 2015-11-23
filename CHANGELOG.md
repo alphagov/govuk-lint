@@ -1,3 +1,5 @@
+* Enable all lint checks
+
 # 0.4.1
 
 * Permit trivial predicates (#19)

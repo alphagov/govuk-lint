@@ -1,3 +1,5 @@
+# 0.5.0
+
 * Enable all lint checks
 
 # 0.4.1

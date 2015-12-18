@@ -9,7 +9,11 @@ module Govuk
     class CLI < RuboCop::CLI
       def run(args = ARGV)
         args += ["--config",
-                 ConfigFile.new.config_file_path]
+                 ConfigFile.new.config_file_path,
+                 "--display-cop-names",
+                 "--extra-details",
+                 "--display-style-guide",
+                ]
 
         Diff.enable!(args) if args.include? "--diff"
 

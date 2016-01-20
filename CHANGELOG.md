@@ -1,3 +1,10 @@
+# 0.5.1
+
+* Update rubocop dependency to ~> 0.35.0
+* Enable outdent for access modifiers
+* Enable blank lines around access modifiers
+* Show more infos for violations
+
 # 0.5.0
 
 * Enable all lint checks

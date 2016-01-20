@@ -39,6 +39,7 @@ module Govuk
       end
 
     private
+
       def self.changed_files
         `git diff #{commit_options} --name-only`.
           split.

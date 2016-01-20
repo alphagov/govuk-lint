@@ -122,7 +122,7 @@ EachWithObject:
 
 EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
-  Enabled: false
+  Enabled: true
 
 EmptyLines:
   Description: "Keeps track of empty lines around expression bodies."

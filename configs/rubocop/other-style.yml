@@ -1,6 +1,7 @@
 AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
-  Enabled: false
+  Enabled: true
+  EnforcedStyle: outdent
 
 AccessorMethodName:
   Description: Check the naming of accessor methods for get_/set_.
@@ -121,7 +122,7 @@ EachWithObject:
 
 EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
-  Enabled: false
+  Enabled: true
 
 EmptyLines:
   Description: "Keeps track of empty lines around expression bodies."

@@ -60,7 +60,7 @@ BlockDelimiters:
 
 BracesAroundHashParameters:
   Description: 'Enforce braces style inside hash parameters.'
-  Enabled: false
+  Enabled: true
 
 CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'

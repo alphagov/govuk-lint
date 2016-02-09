@@ -1,3 +1,7 @@
+# 0.5.2
+
+* Enforce spaces around braces `BracesAroundHashParameters` cop (#26)
+
 # 0.5.1
 
 * Update rubocop dependency to ~> 0.35.0

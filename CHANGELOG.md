@@ -1,3 +1,7 @@
+# 0.5.3
+
+* Enforce spaces around literal hash and block braces (#27)
+
 # 0.5.2
 
 * Don't permit braces for options-style hash params

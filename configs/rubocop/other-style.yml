@@ -342,7 +342,7 @@ SpaceInsideBlockBraces:
     Checks that block braces have or don't have surrounding space.
     For blocks taking parameters, checks that the left brace has
     or doesn't have trailing space.
-  Enabled: false
+  Enabled: true
 
 SpaceBeforeModifierKeyword:
   Description: 'Put a space before the modifier keyword.'
@@ -350,7 +350,7 @@ SpaceBeforeModifierKeyword:
 
 SpaceInsideHashLiteralBraces:
   Description: "Use spaces inside hash literal braces - or don't."
-  Enabled: false
+  Enabled: true
 
 SpecialGlobalVars:
   Description: 'Avoid Perl-style global variables.'

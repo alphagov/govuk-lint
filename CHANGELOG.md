@@ -1,6 +1,7 @@
 # 0.5.2
 
-* Enforce spaces around braces `BracesAroundHashParameters` cop (#26)
+* Don't permit braces for options-style hash params
+  `BracesAroundHashParameters` cop (#26)
 
 # 0.5.1
 

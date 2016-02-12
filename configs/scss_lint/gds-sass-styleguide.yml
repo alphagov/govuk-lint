@@ -60,7 +60,7 @@ linters:
     enabled: false
 
   HexNotation:
-    enabled: true
+    enabled: false # colours should be variables
     style: lowercase
 
   HexValidation:

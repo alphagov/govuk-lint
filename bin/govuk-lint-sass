@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+lib = File.expand_path("../../lib", __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require 'govuk/lint/sass_cli'
+require 'scss_lint/logger'
+
+logger = SCSSLint::Logger.new(STDOUT)
+
+cli = Govuk::Lint::SassCLI.new(logger)
+exit cli.run

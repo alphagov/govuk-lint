@@ -6,7 +6,7 @@ This repo configures various linters to comply with our [style guides][guides].
 
 ### Puppet
 
-We maintain a set of tasks for linting and santity checks in the
+We maintain a set of tasks for linting and sanity checks in the
 [gds-operations/puppet-syntax](https://github.com/gds-operations/puppet-syntax)
 repository.
 
@@ -35,6 +35,21 @@ Useful options:
 `origin/master` and `HEAD`.
 
 See more options in the [rubocop][rubocop] README.
+
+### Sass
+
+Linter: [scss-lint](https://github.com/brigade/scss-lint)
+
+To use, include `govuk-lint` in your Gemfile and run:
+```
+bundle exec govuk-lint-sass <directory or file>
+bundle exec govuk-lint-sass app/assets/stylesheets
+```
+
+When linting your app any assets within `vendor` will be ignored by
+default.
+
+Auto-correction and `--diff` mode are unavailable.
 
 [guides]: https://github.com/alphagov/styleguides
 [rubocop]: https://github.com/bbatsov/rubocop

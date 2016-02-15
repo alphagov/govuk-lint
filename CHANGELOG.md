@@ -1,3 +1,8 @@
+# 0.6.0
+
+* Add sass linting using [scss-lint](https://github.com/brigade/scss-lint) (#30)
+* When upgrading you may have a bundle dependency issue. Running `bundle update sass sass-rails` should fix it.
+
 # 0.5.3
 
 * Enforce spaces around literal hash and block braces (#27)

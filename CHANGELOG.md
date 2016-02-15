@@ -1,3 +1,7 @@
+# 0.6.1
+
+* Include Sass lint configs with gem (#32)
+
 # 0.6.0
 
 * Add sass linting using [scss-lint](https://github.com/brigade/scss-lint) (#30)

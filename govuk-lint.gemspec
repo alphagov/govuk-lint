@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Include this in your project to easily validate it against the GDS style guides}
   spec.homepage      = "https://github.com/alphagov/govuk-lint"
 
-  spec.files         = Dir["{configs/rubocop,lib,bin}/**/*"]
+  spec.files         = Dir["{configs,lib,bin}/**/*"]
   spec.bindir        = "bin"
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]

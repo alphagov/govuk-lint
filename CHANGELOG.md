@@ -1,3 +1,8 @@
+# 0.6.2
+
+* Add guard before accessing Rubocop instance var `@processed_source`
+* Replace references to instance var `@processed_source` with attr_accessor
+
 # 0.6.1
 
 * Include Sass lint configs with gem (#32)

@@ -3,8 +3,10 @@ module Govuk
     module Diff
       module EnabledLines
         def enabled_line?(line_number)
+          return true unless processed_source
+
           super(line_number) &&
-            Diff.changed_lines[@processed_source.path].include?(line_number)
+            Diff.changed_lines[processed_source.path].include?(line_number)
         end
       end
 

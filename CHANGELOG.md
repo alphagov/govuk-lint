@@ -1,3 +1,7 @@
+# 0.7.0
+
+* Disable cop `IfUnlessModifier` to allow single line if/unless blocks
+
 # 0.6.2
 
 * Add guard before accessing Rubocop instance var `@processed_source`

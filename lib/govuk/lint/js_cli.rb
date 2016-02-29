@@ -2,6 +2,7 @@ require "govuk/lint"
 require "jshint"
 require "jshint/cli"
 require "jshint/reporters"
+require 'json'
 
 module Jshint
   class Configuration
@@ -38,11 +39,11 @@ module Govuk
       end
 
       def options
-        YAML.load_file(options_file)
+        JSON.load(File.read(options_file))
       end
 
       def options_file
-        File.join(Govuk::Lint::CONFIG_PATH, "jshint/jshint.yml")
+        File.join(Govuk::Lint::CONFIG_PATH, "jshint/.jshintrc")
       end
     end
   end

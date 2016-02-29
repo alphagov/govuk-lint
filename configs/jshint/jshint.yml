@@ -1,4 +1,0 @@
-browser: true
-globals:
-  jQuery: true
-  $: true

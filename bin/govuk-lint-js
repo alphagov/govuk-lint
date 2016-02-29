@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require 'pry'
+lib = File.expand_path("../../lib", __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require 'govuk/lint/js_cli'
+
+cli = Govuk::Lint::JsCLI.new
+exit cli.run

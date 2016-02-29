@@ -1,3 +1,7 @@
+# 0.8.0
+
+* Disable `Style/ClosingParenthesisIndentation` which doesn't align with our styleguide.
+
 # 0.7.0
 
 * Disable cop `IfUnlessModifier` to allow single line if/unless blocks

@@ -1,7 +1,4 @@
-files: '**/*.js'
-exclude_paths: []
-options:
-  browser: true
-  globals:
-    jQuery: true
-    $: true
+browser: true
+globals:
+  jQuery: true
+  $: true

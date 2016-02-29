@@ -119,6 +119,7 @@ TrailingBlankLines:
 AndOr:
   Description: Use &&/|| instead of and/or.
   Enabled: true
+  EnforcedStyle: conditionals
 
 # Supports --auto-correct
 DefWithParentheses:

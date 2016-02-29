@@ -4,3 +4,7 @@ inherit_from:
   - other-rails.yml
   - other-style.yml
   - other-metrics.yml
+
+AllCops:
+  Exclude:
+    - db/schema.rb

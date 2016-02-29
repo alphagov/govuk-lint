@@ -1,3 +1,7 @@
+# 0.8.1
+
+* Don't lint `db/schema.rb`.
+
 # 0.8.0
 
 * Disable `Style/ClosingParenthesisIndentation` which doesn't align with our styleguide.

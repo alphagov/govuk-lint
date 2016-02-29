@@ -74,4 +74,6 @@
         "jQuery": false,
         "$": false
     }
+
+    // Take a look at https://raw.githubusercontent.com/airbnb/javascript/master/linters/.jshintrc
 }

@@ -15,6 +15,10 @@ CaseIndentation:
   - end
   IndentOneStep: false
 
+Style/ClosingParenthesisIndentation:
+  Description: 'Checks the indentation of hanging closing parentheses.'
+  Enabled: false
+
 ElseLayout:
   Description: 'Check for odd code arrangement in an else block.'
   Enabled: true

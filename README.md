@@ -51,5 +51,17 @@ default.
 
 Auto-correction and `--diff` mode are unavailable.
 
+### Javascript
+
+Linter: [eslint](http://eslint.org/)
+
+To use, include `govuk-lint` in your Gemfile and run:
+```
+bundle exec govuk-lint-js <directory or file>
+bundle exec govuk-lint-js app/assets/javascripts
+```
+
+Auto-correction and `--diff` mode are unavailable.
+
 [guides]: https://github.com/alphagov/styleguides
 [rubocop]: https://github.com/bbatsov/rubocop

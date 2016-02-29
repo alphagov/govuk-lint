@@ -1,5 +1,4 @@
 files: '**/*.js'
-include_paths: ['.']
 exclude_paths: []
 options:
   browser: true

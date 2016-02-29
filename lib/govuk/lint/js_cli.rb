@@ -33,6 +33,9 @@ module Govuk
       def config(args)
         {
           'include_paths' => [args.first || '.'],
+          # Example exclude paths, it would be better if this could be set with a `--exclude=` flag
+          # Also moving vendor JS into the root vendor dir, or vendor within app/assets/javascript
+          # 'exclude_paths' => ['app/assets/javascripts/libs/jquery', 'app/assets/javascripts/libs/goog', 'app/assets/javascripts/libs/suchi'],
           'files' => '**/*[^.min].js',
           'options' => options
         }

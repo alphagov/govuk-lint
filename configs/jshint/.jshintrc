@@ -35,14 +35,12 @@
     "maxstatements" : false,    // {int} Max number statements per function
     "maxcomplexity" : false,    // {int} Max cyclomatic complexity per function
     "maxlen"        : false,    // {int} Max number of characters per line
-    "varstmt"       : false,    // true: Disallow any var statements. Only `let` and `const` are allowed.
 
     // Relaxing
     "asi"           : false,     // true: Tolerate Automatic Semicolon Insertion (no semicolons)
     "boss"          : false,     // true: Tolerate assignments where comparisons would be expected
     "debug"         : false,     // true: Allow debugger statements e.g. browser breakpoints.
     "eqnull"        : false,     // true: Tolerate use of `== null`
-    "esversion"     : 5,         // {int} Specify the ECMAScript version to which the code must adhere.
     "moz"           : false,     // true: Allow Mozilla specific syntax (extends and overrides esnext features)
                                  // (ex: `for each`, multiple try/catch, function expression…)
     "evil"          : false,     // true: Tolerate use of `eval` and `new Function()`
@@ -66,26 +64,14 @@
 
     // Environments
     "browser"       : true,     // Web Browser (window, document, etc)
-    "browserify"    : false,    // Browserify (node.js code in the browser)
-    "couch"         : false,    // CouchDB
     "devel"         : true,     // Development/debugging (alert, confirm, etc)
-    "dojo"          : false,    // Dojo Toolkit
-    "jasmine"       : false,    // Jasmine
-    "jquery"        : false,    // jQuery
-    "mocha"         : true,     // Mocha
-    "mootools"      : false,    // MooTools
-    "node"          : false,    // Node.js
-    "nonstandard"   : false,    // Widely adopted globals (escape, unescape, etc)
-    "phantom"       : false,    // PhantomJS
-    "prototypejs"   : false,    // Prototype and Scriptaculous
-    "qunit"         : false,    // QUnit
-    "rhino"         : false,    // Rhino
-    "shelljs"       : false,    // ShellJS
-    "typed"         : false,    // Globals for typed array constructions
-    "worker"        : false,    // Web Workers
-    "wsh"           : false,    // Windows Scripting Host
-    "yui"           : false,    // Yahoo User Interface
 
     // Custom Globals
-    "globals"       : {}        // additional predefined global variables
+    // http://jshint.com/docs/options/#globals
+    // key is the name of global var, false for read only use
+    "globals"       : {
+        "GOVUK": true,
+        "jQuery": false,
+        "$": false
+    }
 }

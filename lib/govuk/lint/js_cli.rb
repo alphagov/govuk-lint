@@ -33,7 +33,7 @@ module Govuk
       def config(args)
         {
           'include_paths' => [args.first || '.'],
-          'files' => '**/*.js',
+          'files' => '**/*[^.min].js',
           'options' => options
         }
       end

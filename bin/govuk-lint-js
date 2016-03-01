@@ -3,6 +3,18 @@ lib = File.expand_path("../../lib", __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
 require 'govuk/lint/js_cli'
+require 'optparse'
 
-cli = Govuk::Lint::JsCLI.new
+options = {
+  exclude: []
+}
+OptionParser.new do |opts|
+  opts.banner = "Usage: example.rb [options]"
+
+  opts.on("-e", "--exclude PATH", "exclude file path") do |path|
+    options[:exclude] << path
+  end
+end.parse!
+
+cli = Govuk::Lint::JsCLI.new(ARGV, options)
 exit cli.run

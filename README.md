@@ -55,10 +55,17 @@ Auto-correction and `--diff` mode are unavailable.
 
 Linter: [eslint](http://eslint.org/)
 
+It will only lint `.js` files, and ignores `.min.js` by default.
+
 To use, include `govuk-lint` in your Gemfile and run:
 ```
 bundle exec govuk-lint-js <directory or file>
 bundle exec govuk-lint-js app/assets/javascripts
+```
+
+You can also exclude files or directories from being linted
+```
+bundle exec govuk-lint-js app/assets/javascripts --exclude app/assets/javascripts/vendor
 ```
 
 Auto-correction and `--diff` mode are unavailable.

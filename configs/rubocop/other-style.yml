@@ -317,13 +317,13 @@ SingleLineMethods:
   Description: 'Avoid single-line methods.'
   Enabled: false
 
-SingleSpaceBeforeFirstArg:
+SpaceBeforeFirstArg:
   Description: >-
     Checks that exactly one space is used between a method name
     and the first argument for method calls without parentheses.
   Enabled: false
 
-SpaceAfterControlKeyword:
+SpaceAroundKeyword:
   Description: 'Use spaces after if/elsif/unless/while/until/case/when.'
   Enabled: false
 
@@ -343,10 +343,6 @@ SpaceInsideBlockBraces:
     For blocks taking parameters, checks that the left brace has
     or doesn't have trailing space.
   Enabled: true
-
-SpaceBeforeModifierKeyword:
-  Description: 'Put a space before the modifier keyword.'
-  Enabled: false
 
 SpaceInsideHashLiteralBraces:
   Description: "Use spaces inside hash literal braces - or don't."

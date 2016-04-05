@@ -291,7 +291,7 @@ HashSyntax:
   - ruby19
   - hash_rockets
 
-TrailingComma:
+TrailingCommaInLiteral:
   Description: Checks for trailing comma in parameter lists and literals.
   Enabled: false
   EnforcedStyleForMultiline: comma
@@ -299,11 +299,17 @@ TrailingComma:
   - comma
   - no_comma
 
+TrailingCommaInArguments:
+  Enabled: false
+
 # Supports --auto-correct
 WordArray:
   Description: Use %w or %W for arrays of words.
   Enabled: true
   MinSize: 0
+
+MultilineMethodCallIndentation:
+  Enabled: false
 
 ## Strings
 

@@ -1,3 +1,7 @@
+# Unreleased
+
+* Upgrade `rubocop` to `~> 0.39.0`
+
 # 0.8.1
 
 * Don't lint `db/schema.rb`.

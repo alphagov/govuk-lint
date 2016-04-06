@@ -1,4 +1,4 @@
-# Unreleased
+# 1.0.0
 
 * Upgrade `rubocop` to `~> 0.39.0`
 

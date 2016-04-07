@@ -19,6 +19,10 @@ Style/ClosingParenthesisIndentation:
   Description: 'Checks the indentation of hanging closing parentheses.'
   Enabled: false
 
+Style/MutableConstant:
+  Description: 'Freeze mutable objects assigned to constants.'
+  Enabled: true
+
 ElseLayout:
   Description: 'Check for odd code arrangement in an else block.'
   Enabled: true

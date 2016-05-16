@@ -1,3 +1,8 @@
+# 1.1.0
+
+* Disable `Performance/TimesMap`, `Style/ConditionalAssignment` and `Style/FrozenStringLiteralComment`
+* Enable `Style/MutableConstant`
+
 # 1.0.0
 
 * Upgrade `rubocop` to `~> 0.39.0`

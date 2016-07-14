@@ -1,3 +1,8 @@
+# 1.2.0
+
+* Unpin `rake` version
+* Unpin `scss_lint` version
+
 # 1.1.0
 
 * Disable `Performance/TimesMap`, `Style/ConditionalAssignment` and `Style/FrozenStringLiteralComment`

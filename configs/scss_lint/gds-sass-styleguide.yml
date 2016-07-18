@@ -131,7 +131,7 @@ linters:
     convention: hyphenated_lowercase
 
   Shorthand:
-    enabled: true
+    enabled: false
     allowed_shorthands: [1, 2, 3]
 
   SingleLinePerProperty:

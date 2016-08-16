@@ -1,3 +1,7 @@
+# 1.2.1
+
+* Allow local .rubocop.yml to override the `AllCops/Exclude` configuration
+
 # 1.2.0
 
 * Unpin `rake` version

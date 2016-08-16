@@ -18,5 +18,11 @@ RSpec.describe Govuk::Lint::ConfigFile do
       expect(file['inherit_from']).to include(local_rubocop_file)
       expect(file['inherit_from'].size > 1).to eql(true)
     end
+
+    it 'does not contain the `AllCops/Exclude` in temporary config'do
+      cli = Govuk::Lint::ConfigFile.new
+      file = YAML.load_file(cli.config_file_path)
+      expect(file['AllCops'] || {}).to_not include('Exclude')
+    end
   end
 end

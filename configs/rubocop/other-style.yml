@@ -385,3 +385,6 @@ Style/FrozenStringLiteralComment:
 
 Performance/TimesMap:
   Enabled: false
+
+Style/MultilineBlockLayout:
+  Enabled: false

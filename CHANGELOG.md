@@ -1,3 +1,7 @@
+# Unreleased
+
+* Upgrade `rubocop` to `~> 0.43.0`
+
 # 1.2.1
 
 * Allow local .rubocop.yml to override the `AllCops/Exclude` configuration

@@ -100,7 +100,7 @@ CyclomaticComplexity:
   Description: 'Avoid complex methods.'
   Enabled: false
 
-DeprecatedHashMethods:
+PreferredHashMethods:
   Description: 'Checks for use of deprecated Hash methods.'
   Enabled: false
 

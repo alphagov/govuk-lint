@@ -1,5 +1,5 @@
 module Govuk
   module Lint
-    VERSION = "1.2.1".freeze
+    VERSION = "2.0.0".freeze
   end
 end

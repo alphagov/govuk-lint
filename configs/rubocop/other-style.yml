@@ -297,6 +297,12 @@ RescueModifier:
   Description: 'Avoid using rescue in its modifier form.'
   Enabled: false
 
+Style/SafeNavigation:
+  Description: >-
+    This cop transforms usages of a method call safeguarded by a check for the
+    existance of the object to safe navigation (`&.`).
+  Enabled: false
+
 SelfAssignment:
   Description: 'Checks for places where self-assignment shorthand should have been used.'
   Enabled: false

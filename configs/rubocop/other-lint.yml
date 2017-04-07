@@ -76,6 +76,10 @@ ParenthesesAsGroupedExpression:
      parenthesis.
   Enabled: true
 
+PercentStringArray:
+  Description: Checks for unwanted commas and quotes in %w/%W literals eg %w('foo', “bar”).
+  Enabled: true
+
 RequireParentheses:
   Description: >-
      Use parentheses in the method call to avoid confusion

@@ -1,3 +1,8 @@
+# 2.1.0
+
+* Enable `Lint/PercentStringArray`, protect against commas and quotes in word arrays (#71)
+* Disable `Style/SafeNavigation` (#68)
+
 # 2.0.0
 
 * Upgrade `rubocop` to `~> 0.43.0`

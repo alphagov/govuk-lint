@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+ENV['EXECJS_RUNTIME'] = 'RubyRacer'
+require 'execjs'
+require 'escape_utils'
+
+def eslint_js
+  file = File.open("vendor/eslint.js", "rb", encoding: 'utf-8')
+  contents = file.read
+  file.close
+  contents
+end
+
+def config
+  file = File.open("configs/eslint/eslintrc.json", "rb", encoding: 'utf-8')
+  contents = file.read
+  file.close
+  contents
+end
+
+ExecJS.eval <<-JS
+  function () {
+    window = this; // global context
+    #{eslint_js}   // load ESLint library
+    return eslint.verify('', #{config}); // Run linter
+  }()
+JS

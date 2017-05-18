@@ -22,6 +22,14 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 3.3"
 
+  # Ruby linting
   spec.add_dependency "rubocop", "~> 0.43.0"
+
+  # Sass linting
   spec.add_dependency "scss_lint"
+
+  # Javascript linting
+  spec.add_dependency "escape_utils"
+  spec.add_dependency "execjs"
+  spec.add_dependency "therubyracer"
 end

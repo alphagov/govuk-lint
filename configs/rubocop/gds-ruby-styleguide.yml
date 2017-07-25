@@ -146,7 +146,7 @@ MethodCalledOnDoEndBlock:
   Description: Avoid chaining a method call on a do...end block.
   Enabled: true
 
-MethodCallParentheses:
+MethodCallWithoutArgsParentheses:
   Description: 'Do not use parentheses for method calls with no arguments.'
   Enabled: true
 

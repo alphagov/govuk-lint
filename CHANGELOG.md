@@ -1,3 +1,7 @@
+# 3.0.0
+
+* Upgrade `rubocop` to `~> 0.49.0`
+
 # 2.1.0
 
 * Enable `Lint/PercentStringArray`, protect against commas and quotes in word arrays (#71)

@@ -1,3 +1,7 @@
+# 3.1.0
+
+* Fix namespace for `ClosingParenthesisIndentation` config
+
 # 3.0.0
 
 * Upgrade `rubocop` to `~> 0.49.0`

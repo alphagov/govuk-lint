@@ -9,7 +9,7 @@ BlockAlignment:
 CaseIndentation:
   Description: Indentation of when in a case/when/[else/]end.
   Enabled: true
-  IndentWhenRelativeTo: case
+  EnforcedStyle: case
   SupportedStyles:
   - case
   - end
@@ -146,7 +146,7 @@ MethodCalledOnDoEndBlock:
   Description: Avoid chaining a method call on a do...end block.
   Enabled: true
 
-MethodCallParentheses:
+MethodCallWithoutArgsParentheses:
   Description: 'Do not use parentheses for method calls with no arguments.'
   Enabled: true
 
@@ -299,9 +299,6 @@ TrailingCommaInLiteral:
   Description: Checks for trailing comma in parameter lists and literals.
   Enabled: false
   EnforcedStyleForMultiline: comma
-  SupportedStyles:
-  - comma
-  - no_comma
 
 TrailingCommaInArguments:
   Enabled: false

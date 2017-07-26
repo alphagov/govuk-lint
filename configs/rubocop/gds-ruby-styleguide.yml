@@ -15,7 +15,7 @@ CaseIndentation:
   - end
   IndentOneStep: false
 
-Style/ClosingParenthesisIndentation:
+Layout/ClosingParenthesisIndentation:
   Description: 'Checks the indentation of hanging closing parentheses.'
   Enabled: false
 

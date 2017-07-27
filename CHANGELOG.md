@@ -1,3 +1,7 @@
+# 3.2.0
+
+* Relax class naming rules for Sass to allow hyphenated BEM classes (#79)
+
 # 3.1.0
 
 * Fix namespace for `ClosingParenthesisIndentation` config

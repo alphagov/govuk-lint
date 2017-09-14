@@ -36,6 +36,14 @@ Useful options:
 
 See more options in the [rubocop][rubocop] README.
 
+#### RSpec
+
+You can enable RSpec cops by adding the following line to the `.rubocop.yml` file in your project:
+
+```
+require: rubocop-rspec
+```
+
 ### Sass
 
 Linter: [scss-lint](https://github.com/brigade/scss-lint)

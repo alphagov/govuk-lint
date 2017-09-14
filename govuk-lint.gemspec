@@ -23,5 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.3"
 
   spec.add_dependency "rubocop", "~> 0.49.0"
+  spec.add_dependency "rubocop-rspec", "~> 1.16.0"
   spec.add_dependency "scss_lint"
 end

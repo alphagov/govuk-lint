@@ -1,3 +1,8 @@
+# 3.3.0
+
+* Don't complain about block length in tests (#82)
+* Make RSpec-related cops available from rubocop-rspec (#83)
+
 # 3.2.0
 
 * Relax class naming rules for Sass to allow hyphenated BEM classes (#79)

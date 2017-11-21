@@ -245,10 +245,6 @@ NumericLiterals:
     readability.
   Enabled: false
 
-OpMethod:
-  Description: 'When defining binary operators, name the argument other.'
-  Enabled: false
-
 ParameterLists:
   Description: 'Avoid parameter lists longer than three or four parameters.'
   Enabled: false

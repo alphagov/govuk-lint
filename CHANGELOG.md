@@ -1,3 +1,7 @@
+# 3.3.1
+
+* Bump Rubocop to version 0.51.0 to fix a security vulnerability.
+
 # 3.3.0
 
 * Don't complain about block length in tests (#82)

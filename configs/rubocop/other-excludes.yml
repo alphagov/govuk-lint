@@ -6,4 +6,4 @@ Metrics/BlockLength:
   Enabled: true
   Exclude:
     - test/**/*
-    - spec/**/*
+    - "**/spec/**/*"

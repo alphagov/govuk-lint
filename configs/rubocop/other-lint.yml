@@ -50,7 +50,7 @@ HandleExceptions:
   Description: "Don't suppress exception."
   Enabled: true
 
-LiteralInCondition:
+LiteralAsCondition:
   Description: 'Checks of literals used in conditions.'
   Enabled: true
 

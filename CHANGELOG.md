@@ -1,3 +1,9 @@
+# 3.4.0
+
+* Metrics/BlockLength for specs in sub-dirs (#87)
+* Bump rubocop-rspec to v1.19.0 to fix deprecation warnings (#89)
+* Fix config for Lint/LiteralInCondition cop which was renamed in Rubocop v0.50.0 (#89)
+
 # 3.3.1
 
 * Bump Rubocop to version 0.51.0 to fix a security vulnerability.

@@ -27,3 +27,7 @@ ScopeArgs:
 Validation:
   Description: 'Use sexy validations.'
   Enabled: false
+
+SkipsModelValidations:
+  Description: 'Avoid methods that skip model validations.'
+  Enabled: false

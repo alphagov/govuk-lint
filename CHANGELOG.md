@@ -1,3 +1,7 @@
+# Unreleased
+
+* Disabled Rails/SkipsModelValidations (#92)
+
 # 3.4.0
 
 * Metrics/BlockLength for specs in sub-dirs (#87)

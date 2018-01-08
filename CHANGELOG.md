@@ -1,4 +1,4 @@
-# Unreleased
+# 3.5.0
 
 * Disabled Rails/SkipsModelValidations (#92)
 

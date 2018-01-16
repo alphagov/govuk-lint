@@ -7,3 +7,6 @@ Metrics/BlockLength:
   Exclude:
     - test/**/*
     - "**/spec/**/*"
+
+Bundler/DuplicatedGem:
+  Enabled: false

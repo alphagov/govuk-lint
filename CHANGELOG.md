@@ -1,3 +1,7 @@
+# 3.6.0
+
+* Disabled Bundler/DuplicatedGem (#93)
+
 # 3.5.0
 
 * Disabled Rails/SkipsModelValidations (#92)

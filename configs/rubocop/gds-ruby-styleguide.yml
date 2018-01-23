@@ -140,7 +140,10 @@ For:
 IfUnlessModifier:
   Description: Favor modifier if/unless usage when you have a single-line body.
   Enabled: false
-  MaxLineLength: 80
+
+Metrics:
+  LineLength:
+    Max: 80
 
 MethodCalledOnDoEndBlock:
   Description: Avoid chaining a method call on a do...end block.

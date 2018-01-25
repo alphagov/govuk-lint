@@ -90,8 +90,13 @@ SpaceAfterComma:
   Enabled: true
 
 # Supports --auto-correct
-SpaceInsideBrackets:
-  Description: No spaces after [ or before ].
+SpaceInsideReferenceBrackets:
+  Description: No spaces after array[ or before ].
+  Enabled: true
+
+# Supports --auto-correct
+SpaceInsideArrayLiteralBrackets:
+  Description: No spaces after array = [ or before ].
   Enabled: true
 
 # Supports --auto-correct

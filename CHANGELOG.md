@@ -1,3 +1,7 @@
+# Unreleased
+
+* Excluded `namespace` blocks in rake tasks from Metrics/BlockLength
+
 # 3.6.0
 
 * Disabled Bundler/DuplicatedGem (#93)

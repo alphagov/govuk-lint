@@ -1,4 +1,4 @@
-# Unreleased
+# 3.7.0
 
 * Excluded `namespace` blocks in rake tasks from Metrics/BlockLength
 

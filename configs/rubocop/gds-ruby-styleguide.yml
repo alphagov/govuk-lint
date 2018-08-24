@@ -303,8 +303,11 @@ HashSyntax:
   - ruby19
   - hash_rockets
 
-TrailingCommaInLiteral:
-  Description: Checks for trailing comma in parameter lists and literals.
+TrailingCommaInArrayLiteral:
+  Enabled: false
+  EnforcedStyleForMultiline: comma
+
+TrailingCommaInHashLiteral:
   Enabled: false
   EnforcedStyleForMultiline: comma
 

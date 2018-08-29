@@ -1,4 +1,4 @@
-# Unreleased
+# 3.9.0
 
 * Bump Rubocop to version ~> 0.58
 * Bump Rubocop RSpec to version ~> 1.28

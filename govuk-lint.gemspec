@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec", "~> 3.3"
 
-  spec.add_dependency "rubocop", "~> 0.52.0"
-  spec.add_dependency "rubocop-rspec", "~> 1.19.0"
+  spec.add_dependency "rubocop", "~> 0.58"
+  spec.add_dependency "rubocop-rspec", "~> 1.28"
   spec.add_dependency "scss_lint"
 end

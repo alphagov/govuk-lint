@@ -1,3 +1,8 @@
+# Unreleased
+
+* Bump Rubocop to version ~> 0.58
+* Bump Rubocop RSpec to version ~> 1.28
+
 # 3.8.0
 
 * Bump Rubocop to version 0.52.1 to fix Ruby 2.5.0 issue

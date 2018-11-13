@@ -11,9 +11,6 @@ module Govuk
         args += [
           "--config",
           ConfigFile.new.config_file_path,
-          "--display-cop-names",
-          "--extra-details",
-          "--display-style-guide",
         ]
 
         Diff.enable!(args) if args.include? "--diff"

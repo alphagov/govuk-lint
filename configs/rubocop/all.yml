@@ -1,3 +1,16 @@
+AllCops:
+  DisplayCopNames: 
+    Description: 'Display cop names in offense messages'
+    Enabled: true
+
+  ExtraDetails:
+    Description: 'Display extra details in offense messages.'
+    Enabled: true
+
+  DisplayStyleGuide:
+    Description: 'Display style guide URLs in offense messages.'
+    Enabled: true
+
 inherit_from:
   - gds-ruby-styleguide.yml
   - other-lint.yml

@@ -1,3 +1,7 @@
+# 3.10.0
+
+* Changed DisplayCopNames, ExtraDetails, DisplayStyleGuide to be set in config files rather than as CLI options.
+
 # 3.9.0
 
 * Bump Rubocop to version ~> 0.58

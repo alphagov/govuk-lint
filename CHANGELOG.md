@@ -1,4 +1,5 @@
-# Unreleased
+# 3.11.0
+
 * Bump Rubocop to version 0.64 to fix Ruby 2.6.1 issue
 * Bump Ruby to 2.6.1
 

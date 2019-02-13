@@ -1,3 +1,7 @@
+# Unreleased
+* Bump Rubocop to version 0.64 to fix Ruby 2.6.1 issue
+* Bump Ruby to 2.6.1
+
 # 3.10.0
 
 * Changed DisplayCopNames, ExtraDetails, DisplayStyleGuide to be set in config files rather than as CLI options.

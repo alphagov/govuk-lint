@@ -1,3 +1,7 @@
+# Unreleased
+
+* Enforce a compact style when naming class and module children.
+
 # 3.11.0
 
 * Bump Rubocop to version 0.64 to fix Ruby 2.6.1 issue

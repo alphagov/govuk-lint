@@ -70,10 +70,6 @@ CharacterLiteral:
   Description: 'Checks for uses of character literals.'
   Enabled: false
 
-ClassAndModuleChildren:
-  Description: 'Checks style of children classes and modules.'
-  Enabled: false
-
 ClassLength:
   Description: 'Avoid classes longer than 100 lines of code.'
   Enabled: false

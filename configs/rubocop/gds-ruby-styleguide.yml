@@ -221,6 +221,11 @@ ClassAndModuleCamelCase:
   Description: Use CamelCase for classes and modules.
   Enabled: true
 
+ClassAndModuleChildren:
+  Description: Use the compact style for naming child classes and modules.
+  EnforcedStyle: compact
+  Enabled: true
+
 # Supports --auto-correct
 ClassMethods:
   Description: Use self when defining module/class methods.

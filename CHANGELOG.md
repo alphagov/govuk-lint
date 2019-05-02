@@ -1,3 +1,7 @@
+# 3.11.1
+
+* Fix renamed cops IndentArray and IndentHash.
+
 # 3.11.0
 
 * Bump Rubocop to version 0.64 to fix Ruby 2.6.1 issue

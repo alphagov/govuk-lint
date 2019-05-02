@@ -168,13 +168,13 @@ IfWithSemicolon:
   Description: 'Never use if x; .... Use the ternary operator instead.'
   Enabled: false
 
-IndentArray:
+IndentFirstArrayElement:
   Description: >-
     Checks the indentation of the first element in an array
     literal.
   Enabled: false
 
-IndentHash:
+IndentFirstHashElement:
   Description: 'Checks the indentation of the first key in a hash literal.'
   Enabled: false
 

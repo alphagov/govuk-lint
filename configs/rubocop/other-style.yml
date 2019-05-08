@@ -384,6 +384,3 @@ WhileUntilModifier:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-Performance/TimesMap:
-  Enabled: false

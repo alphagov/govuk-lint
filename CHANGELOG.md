@@ -1,3 +1,5 @@
+* Remove redundant cop config for Performance/TimesMap
+
 # 3.11.1
 
 * Fix renamed cops IndentArray and IndentHash.

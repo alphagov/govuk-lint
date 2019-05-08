@@ -1,3 +1,5 @@
+# 3.11.2
+
 * Remove redundant cop config for Performance/TimesMap
 
 # 3.11.1

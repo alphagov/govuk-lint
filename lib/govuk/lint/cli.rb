@@ -8,9 +8,11 @@ module Govuk
   module Lint
     class CLI < RuboCop::CLI
       def run(args = ARGV)
+        config = ConfigFile.new
+
         args += [
           "--config",
-          ConfigFile.new.config_file_path,
+          config.config_file_path,
         ]
 
         Diff.enable!(args) if args.include? "--diff"

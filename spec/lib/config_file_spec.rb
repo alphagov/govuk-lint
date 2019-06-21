@@ -8,15 +8,25 @@ RSpec.describe Govuk::Lint::ConfigFile do
       expect(path).to eql Govuk::Lint::ConfigFile::BASE_CONFIG_FILE
     end
 
-    it 'includes the local .rubocop.yml in the temporary' do
+    it 'includes the local .rubocop.yml in the temporary config' do
       cli = Govuk::Lint::ConfigFile.new
-      local_rubocop_file = Tempfile.new('.rubocop.yml').path
-      allow(cli).to receive(:local_config_file_path).and_return(local_rubocop_file)
+      local_rubocop_file = Tempfile.new('.rubocop.yml')
+      allow(cli).to receive(:local_config_file_path) { local_rubocop_file.path }
 
       file = YAML.load_file(cli.config_file_path)
 
-      expect(file['inherit_from']).to include(local_rubocop_file)
+      expect(file['inherit_from']).to include(local_rubocop_file.path)
       expect(file['inherit_from'].size > 1).to eql(true)
+    end
+
+    it 'copes when the garbage collector runs on the tempfile' do
+      cli = Govuk::Lint::ConfigFile.new
+      local_rubocop_file = Tempfile.new('.rubocop.yml')
+      allow(cli).to receive(:local_config_file_path) { local_rubocop_file.path }
+
+      path = cli.config_file_path
+      GC.start # this is somewhat OS-dependent
+      expect(File.file?(path)).to be_truthy
     end
 
     it 'does not contain the `AllCops/Exclude` in temporary config'do

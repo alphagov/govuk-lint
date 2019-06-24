@@ -9,10 +9,7 @@ module Govuk
 
       def config_file_path
         return BASE_CONFIG_FILE unless File.exist?(local_config_file_path)
-
-        config = merged_global_and_local_configs
-        file = create_tempfile_for_configs(config)
-        file.path
+        tempfile_for_configs.path
       end
 
     private
@@ -38,11 +35,13 @@ module Govuk
         @local_config_file_path ||= File.join(Dir.pwd, ".rubocop.yml")
       end
 
-      def create_tempfile_for_configs(config)
-        file = Tempfile.new('tmp-rubocop-all.yml')
-        file.write(config.to_yaml)
-        file.close
-        file
+      def tempfile_for_configs
+        @tempfile_for_configs ||= begin
+                                   file = Tempfile.new('tmp-rubocop-all.yml')
+                                   file.write(merged_global_and_local_configs.to_yaml)
+                                   file.close
+                                   file
+                                 end
       end
     end
   end

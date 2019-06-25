@@ -1,3 +1,7 @@
+# 3.11.3
+
+* Fix race condition when generating temp config file
+
 # 3.11.2
 
 * Remove redundant cop config for Performance/TimesMap

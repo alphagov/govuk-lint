@@ -1,5 +1,5 @@
 AllCops:
-  DisplayCopNames: 
+  DisplayCopNames:
     Description: 'Display cop names in offense messages'
     Enabled: true
 
@@ -10,6 +10,8 @@ AllCops:
   DisplayStyleGuide:
     Description: 'Display style guide URLs in offense messages.'
     Enabled: true
+
+require: rubocop-rails
 
 inherit_from:
   - gds-ruby-styleguide.yml

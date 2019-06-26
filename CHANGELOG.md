@@ -1,3 +1,7 @@
+# 3.11.4
+
+* Continue to support Rails cops using rubocop-rails
+
 # 3.11.3
 
 * Fix race condition when generating temp config file

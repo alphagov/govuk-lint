@@ -1,3 +1,7 @@
+# Unreleased
+
+* Re-instate disabling of Rails linting by default
+
 # 3.11.4
 
 * Continue to support Rails cops using rubocop-rails

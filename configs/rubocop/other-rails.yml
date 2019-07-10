@@ -1,5 +1,10 @@
 ##################### Rails ##################################
 
+# By default Rails is switched off so this can be used by non-Rails apps,
+# this can be enabled in a local .rubocop.yml file
+Rails:
+  Enabled: false
+
 ActionFilter:
   Description: 'Enforces consistent use of action filter methods.'
   Enabled: false

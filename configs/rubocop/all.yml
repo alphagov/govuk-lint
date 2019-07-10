@@ -13,9 +13,6 @@ AllCops:
 
 require: rubocop-rails
 
-Rails:
-  Enabled: false
-
 inherit_from:
   - gds-ruby-styleguide.yml
   - other-lint.yml

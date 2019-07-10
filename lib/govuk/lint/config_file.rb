@@ -15,20 +15,14 @@ module Govuk
     private
 
       def merged_global_and_local_configs
-        config = load_global_config
-        config['inherit_from'] = absolutize_paths(config)
-        config['inherit_from'] << local_config_file_path
+        config = load_local_config
+        config['inherit_from'] ||= []
+        config['inherit_from'].unshift(BASE_CONFIG_FILE)
         config
       end
 
-      def load_global_config
-        YAML.load_file(BASE_CONFIG_FILE)
-      end
-
-      def absolutize_paths(config)
-        config['inherit_from'].map do |filename|
-          File.join(CONFIG_PATH, "rubocop/#{filename}")
-        end
+      def load_local_config
+        YAML.load_file(local_config_file_path)
       end
 
       def local_config_file_path

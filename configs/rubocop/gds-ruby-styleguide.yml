@@ -333,7 +333,7 @@ StringConversionInInterpolation:
 # Supports --auto-correct
 StringLiterals:
   Description: Checks if uses of quotes match the configured preference.
-  Enabled: false
+  Enabled: true
   EnforcedStyle: double_quotes
   SupportedStyles:
   - single_quotes

@@ -1,3 +1,7 @@
+# Unreleased
+
+* Revert "Don't enforce double-quotes for strings."
+
 # 3.11.5
 
 * Re-instate disabling of Rails linting by default

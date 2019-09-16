@@ -304,15 +304,16 @@ HashSyntax:
   - hash_rockets
 
 TrailingCommaInArrayLiteral:
-  Enabled: false
+  Enabled: true
   EnforcedStyleForMultiline: comma
 
 TrailingCommaInHashLiteral:
-  Enabled: false
+  Enabled: true
   EnforcedStyleForMultiline: comma
 
 TrailingCommaInArguments:
-  Enabled: false
+  Enabled: true
+  EnforcedStyleForMultiline: comma
 
 # Supports --auto-correct
 WordArray:

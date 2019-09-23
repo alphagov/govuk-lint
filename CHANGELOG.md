@@ -1,4 +1,4 @@
-# Unreleased
+# 4.0.0
 
 * Re-enable Cop to enforce trailing commas
 * Revert "Don't enforce double-quotes for strings."

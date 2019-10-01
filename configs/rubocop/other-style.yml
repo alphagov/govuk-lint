@@ -1,287 +1,287 @@
-AccessModifierIndentation:
+Layout/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
   Enabled: true
   EnforcedStyle: outdent
 
-AccessorMethodName:
+Naming/AccessorMethodName:
   Description: Check the naming of accessor methods for get_/set_.
   Enabled: false
 
-Alias:
+Style/Alias:
   Description: 'Use alias_method instead of alias.'
   Enabled: false
 
-AlignHash:
+Layout/AlignHash:
   Description: >-
     Align the elements of a hash literal if they span more than
     one line.
   Enabled: false
 
-AlignParameters:
+Layout/AlignParameters:
   Description: >-
     Align the parameters of a method call if they span more
     than one line.
   Enabled: false
 
-ArrayJoin:
+Style/ArrayJoin:
   Description: 'Use Array#join instead of Array#*.'
   Enabled: false
 
-AsciiComments:
+Style/AsciiComments:
   Description: 'Use only ascii symbols in comments.'
   Enabled: false
 
-AsciiIdentifiers:
+Naming/AsciiIdentifiers:
   Description: 'Use only ascii symbols in identifiers.'
   Enabled: false
 
-Attr:
+Style/Attr:
   Description: 'Checks for uses of Module#attr.'
   Enabled: false
 
-BeginBlock:
+Style/BeginBlock:
   Description: 'Avoid the use of BEGIN blocks.'
   Enabled: false
 
-BlockComments:
+Style/BlockComments:
   Description: 'Do not use block comments.'
   Enabled: false
 
-BlockNesting:
+Metrics/BlockNesting:
   Description: 'Avoid excessive block nesting'
   Enabled: false
 
-BlockDelimiters:
+Style/BlockDelimiters:
   Description: >-
     Avoid using {...} for multi-line blocks (multiline chaining is
     always ugly).
     Prefer {...} over do...end for single-line blocks.
   Enabled: false
 
-BracesAroundHashParameters:
+Style/BracesAroundHashParameters:
   Description: 'Enforce braces style inside hash parameters.'
   Enabled: true
 
-CaseEquality:
+Style/CaseEquality:
   Description: 'Avoid explicit use of the case equality operator(===).'
   Enabled: false
 
-CharacterLiteral:
+Style/CharacterLiteral:
   Description: 'Checks for uses of character literals.'
   Enabled: false
 
-ClassAndModuleChildren:
+Style/ClassAndModuleChildren:
   Description: 'Checks style of children classes and modules.'
   Enabled: false
 
-ClassLength:
+Metrics/ClassLength:
   Description: 'Avoid classes longer than 100 lines of code.'
   Enabled: false
 
-CollectionMethods:
+Style/CollectionMethods:
   Description: 'Preferred collection methods.'
   Enabled: false
 
-ColonMethodCall:
+Style/ColonMethodCall:
   Description: 'Do not use :: for method call.'
   Enabled: false
 
-CommentAnnotation:
+Style/CommentAnnotation:
   Description: >-
     Checks formatting of special comments
     (TODO, FIXME, OPTIMIZE, HACK, REVIEW).
   Enabled: false
 
-CommentIndentation:
+Layout/CommentIndentation:
   Description: 'Indentation of comments.'
   Enabled: false
 
-CyclomaticComplexity:
+Metrics/CyclomaticComplexity:
   Description: 'Avoid complex methods.'
   Enabled: false
 
-PreferredHashMethods:
+Style/PreferredHashMethods:
   Description: 'Checks for use of deprecated Hash methods.'
   Enabled: false
 
-Documentation:
+Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
   Enabled: false
 
-DotPosition:
+Layout/DotPosition:
   Description: 'Checks the position of the dot in multi-line method calls.'
   Enabled: false
 
-DoubleNegation:
+Style/DoubleNegation:
   Description: 'Checks for uses of double negation (!!).'
   Enabled: false
 
-EachWithObject:
+Style/EachWithObject:
   Description: 'Prefer `each_with_object` over `inject` or `reduce`.'
   Enabled: false
 
-EmptyLinesAroundAccessModifier:
+Layout/EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
   Enabled: true
 
-EmptyLines:
+Layout/EmptyLines:
   Description: "Keeps track of empty lines around expression bodies."
   Enabled: false
 
-EmptyLiteral:
+Style/EmptyLiteral:
   Description: 'Prefer literals to Array.new/Hash.new/String.new.'
   Enabled: false
 
-Encoding:
+Style/Encoding:
   Description: 'Use UTF-8 as the source file encoding.'
   Enabled: false
 
-EndBlock:
+Style/EndBlock:
   Description: 'Avoid the use of END blocks.'
   Enabled: false
 
-EvenOdd:
+Style/EvenOdd:
   Description: 'Favor the use of Fixnum#even? && Fixnum#odd?'
   Enabled: false
 
-FileName:
+Naming/FileName:
   Description: 'Use snake_case for source file names.'
   Enabled: false
 
-FlipFlop:
+Lint/FlipFlop:
   Description: 'Checks for flip flops'
   Enabled: false
 
-FormatString:
+Style/FormatString:
   Description: 'Enforce the use of Kernel#sprintf, Kernel#format or String#%.'
   Enabled: false
 
-GlobalVars:
+Style/GlobalVars:
   Description: 'Do not introduce global variables.'
   Enabled: false
 
-GuardClause:
+Style/GuardClause:
   Description: 'Check for conditionals that can be replaced with guard clauses'
   Enabled: false
 
-IfWithSemicolon:
+Style/IfWithSemicolon:
   Description: 'Never use if x; .... Use the ternary operator instead.'
   Enabled: false
 
-IndentFirstArrayElement:
+Layout/IndentFirstArrayElement:
   Description: >-
     Checks the indentation of the first element in an array
     literal.
   Enabled: false
 
-IndentFirstHashElement:
+Layout/IndentFirstHashElement:
   Description: 'Checks the indentation of the first key in a hash literal.'
   Enabled: false
 
-Lambda:
+Style/Lambda:
   Description: 'Use the new lambda literal syntax for single-line blocks.'
   Enabled: false
 
-LambdaCall:
+Style/LambdaCall:
   Description: 'Use lambda.call(...) instead of lambda.(...).'
   Enabled: false
 
-LeadingCommentSpace:
+Layout/LeadingCommentSpace:
   Description: 'Comments should start with a space.'
   Enabled: false
 
-LineEndConcatenation:
+Style/LineEndConcatenation:
   Description: >-
     Use \ instead of + or << to concatenate two string literals at
     line end.
   Enabled: false
 
-MethodDefParentheses:
+Style/MethodDefParentheses:
   Description: >-
     Checks if the method definitions have or don't have
     parentheses.
   Enabled: false
 
-MethodLength:
+Metrics/MethodLength:
   Description: 'Avoid methods longer than 10 lines of code.'
   Enabled: false
 
-ModuleFunction:
+Style/ModuleFunction:
   Description: 'Checks for usage of `extend self` in modules.'
   Enabled: false
 
-MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
 
-NegatedIf:
+Style/NegatedIf:
   Description: >-
     Favor unless over if for negative conditions
     (or control flow or).
   Enabled: false
 
-NegatedWhile:
+Style/NegatedWhile:
   Description: 'Favor until over while for negative conditions.'
   Enabled: false
 
-Next:
+Style/Next:
   Description: 'Use `next` to skip iteration instead of a condition at the end.'
   Enabled: false
 
-NilComparison:
+Style/NilComparison:
   Description: 'Prefer x.nil? to x == nil.'
   Enabled: false
 
-NonNilCheck:
+Style/NonNilCheck:
   Description: 'Checks for redundant nil checks.'
   Enabled: false
 
-Not:
+Style/Not:
   Description: 'Use ! instead of not.'
   Enabled: false
 
-NumericLiterals:
+Style/NumericLiterals:
   Description: >-
     Add underscores to large numeric literals to improve their
     readability.
   Enabled: false
 
-ParameterLists:
+Metrics/ParameterLists:
   Description: 'Avoid parameter lists longer than three or four parameters.'
   Enabled: false
 
-PercentLiteralDelimiters:
+Style/PercentLiteralDelimiters:
   Description: 'Use `%`-literal delimiters consistently'
   Enabled: false
 
-PerlBackrefs:
+Style/PerlBackrefs:
   Description: 'Avoid Perl-style regex back references.'
   Enabled: false
 
-PredicateName:
+Naming/PredicateName:
   Description: 'Check the names of predicate methods.'
   Enabled: false
 
-Proc:
+Style/Proc:
   Description: 'Use proc instead of Proc.new.'
   Enabled: false
 
-RaiseArgs:
+Style/RaiseArgs:
   Description: 'Checks the arguments passed to raise/fail.'
   Enabled: false
 
-RedundantBegin:
+Style/RedundantBegin:
   Description: "Don't use begin blocks when they are not needed."
   Enabled: false
 
-RedundantException:
+Style/RedundantException:
   Description: "Checks for an obsolete RuntimeException argument in raise/fail."
   Enabled: false
 
-RedundantSelf:
+Style/RedundantSelf:
   Description: "Don't use self where it's not needed."
   Enabled: false
 
-RegexpLiteral:
+Style/RegexpLiteral:
   Description: >-
     Use %r for regular expressions matching more than
     `MaxSlashes` '/' characters.
@@ -289,7 +289,7 @@ RegexpLiteral:
     `MaxSlashes` '/' character.
   Enabled: false
 
-RescueModifier:
+Style/RescueModifier:
   Description: 'Avoid using rescue in its modifier form.'
   Enabled: false
 
@@ -299,84 +299,84 @@ Style/SafeNavigation:
     existance of the object to safe navigation (`&.`).
   Enabled: false
 
-SelfAssignment:
+Style/SelfAssignment:
   Description: 'Checks for places where self-assignment shorthand should have been used.'
   Enabled: false
 
-Semicolon:
+Style/Semicolon:
   Description: "Don't use semicolons to terminate expressions."
   Enabled: false
 
-SignalException:
+Style/SignalException:
   Description: 'Checks for proper usage of fail and raise.'
   Enabled: false
 
-SingleLineBlockParams:
+Style/SingleLineBlockParams:
   Description: 'Enforces the names of some block params.'
   Enabled: false
 
-SingleLineMethods:
+Style/SingleLineMethods:
   Description: 'Avoid single-line methods.'
   Enabled: false
 
-SpaceBeforeFirstArg:
+Layout/SpaceBeforeFirstArg:
   Description: >-
     Checks that exactly one space is used between a method name
     and the first argument for method calls without parentheses.
   Enabled: false
 
-SpaceAroundKeyword:
+Layout/SpaceAroundKeyword:
   Description: 'Use spaces after if/elsif/unless/while/until/case/when.'
   Enabled: false
 
-SpaceAfterNot:
+Layout/SpaceAfterNot:
   Description: Tracks redundant space after the ! operator.
   Enabled: false
 
-SpaceBeforeComment:
+Layout/SpaceBeforeComment:
   Description: >-
     Checks for missing space between code and a comment on the
     same line.
   Enabled: false
 
-SpaceInsideBlockBraces:
+Layout/SpaceInsideBlockBraces:
   Description: >-
     Checks that block braces have or don't have surrounding space.
     For blocks taking parameters, checks that the left brace has
     or doesn't have trailing space.
   Enabled: true
 
-SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   Description: "Use spaces inside hash literal braces - or don't."
   Enabled: true
 
-SpecialGlobalVars:
+Style/SpecialGlobalVars:
   Description: 'Avoid Perl-style global variables.'
   Enabled: false
 
-UnneededCapitalW:
+Style/UnneededCapitalW:
   Description: 'Checks for %W when interpolation is not needed.'
   Enabled: false
 
-CommandLiteral:
+Style/CommandLiteral:
   Description: 'Checks for %x when `` would do.'
   Enabled: false
 
-VariableInterpolation:
+Style/VariableInterpolation:
   Description: >-
     Don't interpolate global, instance and class variables
     directly in strings.
   Enabled: false
 
-WhenThen:
+Style/WhenThen:
   Description: 'Use when x then ... for one-line cases.'
   Enabled: false
 
-WhileUntilDo:
+Style/WhileUntilDo:
   Description: 'Checks for redundant do after while or until.'
   Enabled: false
 
-WhileUntilModifier:
+Style/WhileUntilModifier:
   Description: >-
     Favor modifier while/until usage when you have a
     single-line body.

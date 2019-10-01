@@ -5,34 +5,34 @@
 Rails:
   Enabled: false
 
-ActionFilter:
+Rails/ActionFilter:
   Description: 'Enforces consistent use of action filter methods.'
   Enabled: false
 
-Delegate:
+Rails/Delegate:
   Description: 'Prefer delegate method for delegations.'
   Enabled: false
 
-HasAndBelongsToMany:
+Rails/HasAndBelongsToMany:
   Description: 'Prefer has_many :through to has_and_belongs_to_many.'
   Enabled: false
 
-Output:
+Rails/Output:
   Description: 'Checks for calls to puts, print, etc.'
   Enabled: false
 
-ReadWriteAttribute:
+Rails/ReadWriteAttribute:
   Description: 'Checks for read_attribute(:attr) and write_attribute(:attr, val).'
   Enabled: false
 
-ScopeArgs:
+Rails/ScopeArgs:
   Description: 'Checks the arguments of ActiveRecord scopes.'
   Enabled: false
 
-Validation:
+Rails/Validation:
   Description: 'Use sexy validations.'
   Enabled: false
 
-SkipsModelValidations:
+Rails/SkipsModelValidations:
   Description: 'Avoid methods that skip model validations.'
   Enabled: false

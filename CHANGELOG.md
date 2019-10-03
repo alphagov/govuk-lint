@@ -1,3 +1,8 @@
+# 4.0.1
+
+* Bump Ruby to 2.6.5
+* Specify cop categories to stop 'no department given' warnings being output to the console
+
 # 4.0.0
 
 * Re-enable Cop to enforce trailing commas

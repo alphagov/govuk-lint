@@ -354,7 +354,7 @@ Style/SpecialGlobalVars:
   Description: 'Avoid Perl-style global variables.'
   Enabled: false
 
-Style/UnneededCapitalW:
+Style/RedundantCapitalW:
   Description: 'Checks for %W when interpolation is not needed.'
   Enabled: false
 

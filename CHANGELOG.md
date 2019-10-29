@@ -1,3 +1,7 @@
+# 4.1.0
+
+* Bump rubocop to version 0.76, updating the linter config to work with it.
+
 # 4.0.1
 
 * Bump Ruby to 2.6.5

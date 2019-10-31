@@ -1,3 +1,9 @@
+# DEPRECATED
+
+This repository and Gem has been deprecated and is no longer supported.
+To lint Ruby and RSpec projects please consider using instead [rubocop-govuk][rubocop-govuk].
+To lint SASS projects please consider using [sass-lint][sass-lint].
+
 # GOV.UK Lint
 
 This repo configures various linters to comply with our [style guides][guides].
@@ -61,3 +67,5 @@ Auto-correction and `--diff` mode are unavailable.
 
 [guides]: https://github.com/alphagov/styleguides
 [rubocop]: https://github.com/bbatsov/rubocop
+[rubocop-govuk]: https://github.com/alphagov/rubocop-govuk
+[sass-lint]: https://github.com/sasstools/sass-lint

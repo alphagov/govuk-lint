@@ -1,8 +1,12 @@
 # DEPRECATED
 
 This repository and Gem has been deprecated and is no longer supported.
-To lint Ruby and RSpec projects please consider using instead [rubocop-govuk][rubocop-govuk].
-To lint SASS projects please consider using [sass-lint][sass-lint].
+
+To lint Ruby and RSpec projects please consider using [rubocop][rubocop] with [rubocop-govuk][rubocop-govuk].
+
+To lint SASS projects please consider using [scss-lint][scss-lint] with [scss-lint-govuk][scss-lint-govuk].
+
+For guidance on upgrading to these tools see the [migrate from govuk-lint][migrate-guide] page in the developer docs.
 
 # GOV.UK Lint
 
@@ -66,6 +70,8 @@ default.
 Auto-correction and `--diff` mode are unavailable.
 
 [guides]: https://github.com/alphagov/styleguides
+[migrate-guide]: https://docs.publishing.service.gov.uk/manual/migrate-from-govuk-lint.html
 [rubocop]: https://github.com/bbatsov/rubocop
 [rubocop-govuk]: https://github.com/alphagov/rubocop-govuk
-[sass-lint]: https://github.com/sasstools/sass-lint
+[scss-lint]: https://github.com/sds/scss-lint
+[scss-lint-govuk]: https://github.com/alphagov/scss-lint-govuk

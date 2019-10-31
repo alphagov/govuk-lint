@@ -1,4 +1,4 @@
-# Unreleased
+# 4.3.0
 
 * Deprecate govuk-ruby-lint
 * Deprecate govuk-scss-lint

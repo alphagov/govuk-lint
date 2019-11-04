@@ -1,3 +1,7 @@
+# 4.2.0
+
+* Disable the Style/FormatStringToken cop.
+
 # 4.1.0
 
 * Bump rubocop to version 0.76, updating the linter config to work with it.

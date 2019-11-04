@@ -11,3 +11,6 @@ Metrics/BlockLength:
 
 Bundler/DuplicatedGem:
   Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false

@@ -8,6 +8,7 @@ module Govuk
   module Lint
     class CLI < RuboCop::CLI
       def run(args = ARGV)
+        warn "[DEPRECATION] `govuk-lint-ruby` is deprecated.  Please use `rubocop` with `rubocop-govuk` instead."
         config = ConfigFile.new
 
         args += [

@@ -1,3 +1,8 @@
+# 4.3.0
+
+* Deprecate govuk-ruby-lint
+* Deprecate govuk-scss-lint
+
 # 4.2.0
 
 * Disable the Style/FormatStringToken cop.

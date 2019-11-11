@@ -6,6 +6,7 @@ module Govuk
   module Lint
     class SassCLI < SCSSLint::CLI
       def run(args = ARGV)
+        warn "[DEPRECATION] `govuk-scss-lint` is deprecated.  Please use `scss-lint` with `scss-lint-govuk` instead."
         args += [
                   "--config",
                   File.join(Govuk::Lint::CONFIG_PATH, "scss_lint/gds-sass-styleguide.yml"),
